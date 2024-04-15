@@ -1,0 +1,38 @@
+.Editor {
+  display: flex;
+  gap:10px;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.Editor input {
+  padding: 15px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.Editor .input_wrap {
+  display: flex;
+  justify-content: space-between
+}
+
+.Editor .name {
+  width: 25%;
+  margin-right: 10px;
+}
+
+.Editor button {
+  cursor: pointer;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding: 10px 0;
+}
+
+.Editor > h3 {
+    margin: 0;
+}

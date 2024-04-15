@@ -1,0 +1,30 @@
+.ContactItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.ContactItem .title {
+    width: 100px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 10px;
+    padding: 2px;
+}
+
+.ContactItem .contact {
+    flex: 1;   
+}
+
+.ContactItem button {
+    cursor: pointer;
+    font-size: 14px;
+    background: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
